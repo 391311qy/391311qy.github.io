@@ -28,7 +28,7 @@ twitter_username: 391311qy
 github_username:  391311qy
 
 # Build settings
-theme: slate
+theme: minima
 plugins:
   - jekyll-feed
 
