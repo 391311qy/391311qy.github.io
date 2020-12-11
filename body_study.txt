@@ -1,0 +1,30 @@
+        <ul><!--unordered list: bullet points --></ul>
+
+        <ol><!--ordered list, 1,2,3,4 --><li>item1</li></ol>
+
+        <li><!--combined with the ul and ol--></li>
+        <a href = "https://www.w3schools.com/" target = "_blank">thislink<!--hyperlink: target=_blank为打开新窗口 --></a>
+
+        <img><!--insert an image in this position-->
+
+        <div class = "li-ca"><!--占满整行， 指定宽度和高度--></div>
+        <span></span>
+
+        <!--internal and external import of CSS-->
+        <style>
+            * {
+                color : green;
+            }
+            
+            #li-ca {  
+                color : blue;
+            }
+
+            .someclassname {
+                color: green;
+            }
+        </style>
+        
+        <div id = "li-ca">div1</div>
+
+        <p>div3</p>

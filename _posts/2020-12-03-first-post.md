@@ -13,9 +13,16 @@ eg. https://developer.mozilla.org/en-US
 
 <protocol><domain>(<port>)<path>
 
-1: protocol:https-> which is not the TCP/IP
-2: domain: developer.mozilla.org -> used to ask for the DNS server and translate to ip address (192.168.1.2)
-3: port: 443 
-4: path: en-US
+<ul>
+    <li>1: protocol:https-> which is not the TCP/IP</li>
+    <li>2: domain: developer.mozilla.org -> used to ask for the DNS server and translate to ip address (192.168.1.2)</li>
+    <li>3: port: 443 </li>
+    <li>4: path: en-US</li>
+</ul>
 
-difference between html <a href = "https://www.w3schools.com/html/html_id.asp" target = "_blank" >id and class</a>
+<ul class = "li-ca" ><li>difference between html <a href = "https://www.w3schools.com/html/html_id.asp" target = "_blank" >id and class</a></ul></li>
+
+
+<ul><li>try to use combined selectors in css</ul></li>
+
+<div class = "first"> to show the class inheritance </div>
