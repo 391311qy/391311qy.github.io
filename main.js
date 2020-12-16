@@ -49,26 +49,61 @@
 // }
 
 //getElement*
-var oUser = document.getElementById('user');
-console.log(oUser);
 
-var oCommon = document.getElementsByClassName('common');
-console.log(oCommon);
+// //--------------------------
+// var oUser = document.getElementById('user');
+// console.log(oUser);
 
-var oUl = document.getElementsByClassName('box');
-var oLis = document.getElementsByTagName('li');
-var john = oUl[0].getElementsByTagName('li')[0];
-console.log(oUl);
-console.log(oLis);
-console.log(john);
+// var oCommon = document.getElementsByClassName('common');
+// console.log(oCommon);
 
-//querySelector
-var oUser2 = document.querySelector('#user');
-console.log(oUser2);
+// var oUl = document.getElementsByClassName('box');
+// var oLis = document.getElementsByTagName('li');
+// var john = oUl[0].getElementsByTagName('li')[0];
+// console.log(oUl);
+// console.log(oLis);
+// console.log(john);
 
-var oLis2 = document.querySelectorAll('li');
-console.log(oLis2);
+// //querySelector
+// var oUser2 = document.querySelector('#user');
+// console.log(oUser2);
 
-var oCommons = document.querySelectorAll('.common');
-console.log(oCommons);
+// var oLis2 = document.querySelectorAll('li');
+// console.log(oLis2);
+
+// var oCommons = document.querySelectorAll('.common');
+// console.log(oCommons);
+
+// ---------------------------
+
+// client side rendering using react
+// create virtual dom element
+// JS expression
+
+
+// here it also uses html, which is intotal called jsx.
+const a = 10;
+const str = 'this is a str';
+const arr = [ <p key='1'>first</p>, <p key='2'>second</p>, <p key='3'>third</p> ];
+
+//map : used to modify the array using a function.
+const arr1 = ['apple', 'pear', 'berry'];
+const res = arr1.map((item, index) => {
+           return <p key={index}>* {item} *</p>// <p defines a paragraph>
+       });
+
+// JS function
+function formatName(user) {
+  return user.firstName + ' ' + user.lastName;
+}
+
+const user = {
+  firstName: 'Harper',
+  lastName: 'Perez',
+};
+
+const element = <h1>Hello, {formatName(user)}!</h1>;
+
+ReactDOM.render(element, document.getElementById('root'));
+
 
