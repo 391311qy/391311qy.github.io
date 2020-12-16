@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom';
+
 // // 动态变量类型 （dynamic）
 // //这里的变量为global
 // //js has dynamically typed languages
