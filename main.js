@@ -82,15 +82,15 @@
 
 
 // here it also uses html, which is intotal called jsx.
-const a = 10;
-const str = 'this is a str';
-const arr = [ <p key='1'>first</p>, <p key='2'>second</p>, <p key='3'>third</p> ];
+// const a = 10;
+// const str = 'this is a str';
+// const arr = [ <p key='1'>first</p>, <p key='2'>second</p>, <p key='3'>third</p> ];
 
-//map : used to modify the array using a function.
-const arr1 = ['apple', 'pear', 'berry'];
-const res = arr1.map((item, index) => {
-           return <p key={index}>* {item} *</p>// <p defines a paragraph>
-       });
+// //map : used to modify the array using a function.
+// const arr1 = ['apple', 'pear', 'berry'];
+// const res = arr1.map((item, index) => {
+//            return <p key={index}>* {item} *</p>// <p defines a paragraph>
+//        });
 
 // // JS function
 // function formatName(user) {
@@ -105,6 +105,7 @@ const res = arr1.map((item, index) => {
 // const element = <h1>Hello, {formatName(user)}!</h1>;
 
 // ReactDOM.render(element, document.getElementById('root'));
+
 
 
 function Clock(props) {
