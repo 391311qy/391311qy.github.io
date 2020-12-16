@@ -17,6 +17,10 @@ title: experiment
         <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
         <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
         <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+        <!--babel import-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+
         
     </head>
     <body>
@@ -25,7 +29,11 @@ title: experiment
         <a href = "https://datascience.nih.gov/covid-19-open-access-resources#computational", target = "_blank">COVID DATA</a>
 
         <!--这段javascript的文件import应该放在最后面： 因为js的code要去操作前面的内容-->
-        <script src = "main.js"></script>
+        <script type="text/babel", src = "main.js"></script>
+        <script type="text/babel">// ES6 / React / JSX code from here</script>
+            
+        
+         
 
     </body>
 </html>
