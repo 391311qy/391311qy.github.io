@@ -28,7 +28,7 @@ twitter_username: 391311qy
 github_username:  391311qy
 
 # Build settings
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
