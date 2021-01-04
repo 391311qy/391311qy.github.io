@@ -6,3 +6,4 @@ layout: home
 ---
 
 Bio: Yue Qi is joined UCSD ECE in 2019, he is pursuing a master degree in Electrical and Computer Engineering. He works on path planning and motion planning in robotics.
+
